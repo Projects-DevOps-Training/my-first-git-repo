@@ -1,0 +1,8 @@
+ansible all -i 18.212.26.93, -e "ansible_user=ec2-user ansible_password=DevOps321" -m ping
+
+ansible all -i 18.212.26.93, -e "ansible_user=ec2-user ansible_password=DevOps321" -m dnf
+ansible all -i 18.212.26.93, -e "ansible_user=ec2-user ansible_password=DevOps321" -m co
+
+
+ansible-playbook (YAML)
+
